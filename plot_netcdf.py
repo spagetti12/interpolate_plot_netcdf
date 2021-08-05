@@ -1,3 +1,19 @@
+"""
+Execute with
+python  plot_netcdf.py
+
+
+You'll need the following modules:
+    netCDF4
+    pyplot
+    numpy
+    scipy
+
+if you don't have them, try installing them with
+pip install <module>
+in the command line
+"""
+
 from netCDF4 import Dataset
 import matplotlib.pyplot as plt
 import numpy as np
