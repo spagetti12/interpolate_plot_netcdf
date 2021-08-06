@@ -20,7 +20,7 @@ import numpy as np
 from scipy import interpolate
 
 """
-Define here the data file (ifile), the name of the variable in the file (ifile) and the latitutde you want to interpolate (interpolated_lat).
+Define here the data file (ifile), the name of the variable in the file (varname) and the latitutde you want to interpolate (interpolated_lat).
 
 If you don't know the variable name as it is in the file, run:
 ncdump -h <ifile>
